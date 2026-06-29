@@ -38,7 +38,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -96,7 +96,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_intent_bandwidth_kbps",
           "refId": "A"
@@ -108,7 +108,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -166,7 +166,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_ue_state_kbps",
           "refId": "A"
@@ -178,7 +178,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -236,7 +236,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_chosen_action_id",
           "refId": "A"
@@ -248,7 +248,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -306,7 +306,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_test_iteration",
           "refId": "A"
@@ -318,7 +318,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -377,7 +377,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_achieved_throughput_kbps",
           "legendFormat": "Achieved",
@@ -390,7 +390,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -449,7 +449,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_action_throughput_kbps",
           "legendFormat": "Action BW",
@@ -475,7 +475,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -619,7 +619,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_intent_bandwidth_kbps",
           "legendFormat": "Intent (constant target)",
@@ -628,7 +628,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_applied_congestion_kbps",
           "legendFormat": "Applied Congestion (simulated drift)",
@@ -637,7 +637,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_achieved_throughput_kbps",
           "legendFormat": "Achieved (UE-received)",
@@ -663,7 +663,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -751,7 +751,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_jitter_ms",
           "legendFormat": "Jitter (ms)",
@@ -764,7 +764,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -851,7 +851,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_ping_latency_ms * 1000",
           "legendFormat": "Latency (µs)",
@@ -864,7 +864,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "efqkcfr8p0e0wa"
+        "uid": "ffpekqa1wum80b"
       },
       "fieldConfig": {
         "defaults": {
@@ -951,7 +951,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "efqkcfr8p0e0wa"
+            "uid": "ffpekqa1wum80b"
           },
           "expr": "ztn_packet_loss_percent",
           "legendFormat": "Packet Loss %",
