@@ -15,6 +15,28 @@ Step-by-step instructions for deploying the ZENITH-5G testbed on a fresh Ubuntu 
 - Grafana installed (see https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/)
 
 ---
+## Step 0 — Install OAI 5G Core, gNB and UE
+
+### 5G Core (OAI CN5G)
+Follow the official guide:
+https://github.com/openairinterface/openairinterface5g/blob/develop/doc/NR_SA_Tutorial_OAI_CN5G.md
+
+Key steps summary:
+- Install Docker and Docker Compose
+- Clone the OAI CN5G repository
+- Pull the Docker images
+- Start with `docker compose up -d`
+
+### gNB and UE (OAI NR)
+Follow the official guide:
+https://github.com/openairinterface/openairinterface5g/blob/develop/doc/NR_SA_Tutorial_OAI_nrUE.md
+
+Key steps summary:
+- Install build dependencies
+- Clone openairinterface5g repository
+- Build with `cmake_targets/build_oai -I --nrUE --gNB --build-lib all`
+- Use `--rfsim` flag for rfsimulator mode (no hardware needed)
+- Use `--usrp-args` for USRP B210 hardware mode
 
 ## Step 1 — Clone the Repository
 
