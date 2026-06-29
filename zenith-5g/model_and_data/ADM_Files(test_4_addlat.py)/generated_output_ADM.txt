@@ -1,0 +1,9 @@
+Input Sentence:
+Set maximum network bandwidth to 600 kbps for Professors between 8 AM to 20 PM.
+
+GPT-4-turbo Output:
+Output: define intent buildIntent:
+    for group('professors')
+    set bandwidth('max', '600', 'kbps')
+    start hour('08:00')
+    end hour('20:00');
