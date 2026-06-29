@@ -24,7 +24,7 @@ User Intent (NILE)
        ↓
 Bandwidth Threshold Extraction
        ↓
-Apply UPF Congestion (tc qdisc)  ←──────────────────┐
+Apply UPF Congestion (tc qdisc)    ←──────────────────┐
        ↓                                              │
 Run iperf3 (UDP)                                      │
        ↓                                              │
