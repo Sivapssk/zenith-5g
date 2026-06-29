@@ -345,7 +345,7 @@ def main():
 
 
     # # Set your OpenAI API key
-    # openai.api_key = "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"
+    
 
     # # Load pre-trained model and tokenizer
     # model_name = "bert-base-uncased"  # You can replace this with any other pre-trained model
