@@ -1,0 +1,29 @@
+# /etc/prometheus/prometheus.yml
+# ZENITH-5G Testbed — Prometheus Scrape Configuration
+#
+# After editing this file, restart Prometheus:
+#   sudo systemctl restart prometheus
+
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+
+  # Prometheus self-monitoring
+  - job_name: 'prometheus'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # Node exporter (system metrics — CPU, memory, disk)
+  - job_name: 'node'
+    static_configs:
+      - targets: ['localhost:9100']
+
+  # ZTN ADM script metrics exporter
+  # NOTE: port must match start_http_server() call in test_4_addlat.py
+  - job_name: 'ztn_adm_demo'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['localhost:8001']

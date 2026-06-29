@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+demo_env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and outputs
+*.log
+ztn_demo_logs/
+*.csv
+*.png
+!docs/images/*.png
+
+# Trained models (large files — store separately or use Git LFS)
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Grafana dashboard with hardcoded UID — keep template, not machine-specific copy
+# (see docs/troubleshooting.md for UID fix instructions)
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets / credentials
+*.env
+.env
+config_local.py
