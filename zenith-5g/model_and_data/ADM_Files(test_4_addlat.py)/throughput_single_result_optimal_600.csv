@@ -1,0 +1,11 @@
+Timeslot,Bandwidth,Measured Throughput (Kbps),Status,Applied Congestion (if any)
+1,600K,611.5833333333334,With Congestion,600
+2,600K,613.9166666666666,With Congestion,630
+3,600K,611.5833333333334,With Congestion,600
+4,600K,611.5833333333334,With Congestion,600
+5,600K,613.1666666666666,With Congestion,620
+6,600K,613.1666666666666,With Congestion,620
+7,600K,612.6666666666666,With Congestion,614
+8,600K,612.5,With Congestion,612
+9,600K,612.5,With Congestion,611
+10,600K,612.25,With Congestion,608

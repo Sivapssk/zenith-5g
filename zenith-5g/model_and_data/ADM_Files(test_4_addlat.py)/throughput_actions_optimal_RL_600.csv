@@ -1,0 +1,6 @@
+Time,State,Predicted Bandwidth (Kbps),Max Throughput,Best Action
+1,600,600,550.0,$a_3$
+2,600,600,600,$a_5$
+3,600,600,600,$a_5$
+4,600,600,600,$a_5$
+5,600,600,600,$a_5$
