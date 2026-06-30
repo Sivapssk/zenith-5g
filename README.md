@@ -64,6 +64,7 @@ zenith-5g/
 └── docs/
     ├── setup_guide.md
     ├── troubleshooting.md
+    ├── Process Steps.pdf
     └── images/
 ```
 
