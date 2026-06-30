@@ -47,21 +47,24 @@ Prometheus Metrics → Grafana Live Dashboard
 
 ```
 zenith-5g/
-├── README.md                    # This file
-├── requirements.txt             # Python dependencies
+├── README.md
+├── requirements.txt
 ├── .gitignore
 ├── scripts/
-│   ├── test_4_addlat.py         # Main ADM script (ZTN closed-loop)
-│   ├── server.py                # iperf UDP server (runs on UE side)
-│   └── demotest_ADM.py          # One-click demo launcher (Flask web UI)
+│   ├── test_4_addlat.py
+│   ├── server.py
+│   └── demo_launcher_4.py
 ├── grafana/
-│   └── dashboard.json           # Grafana dashboard (import this)
+│   └── dashboard.json
 ├── prometheus/
-│   └── prometheus.yml           # Prometheus scrape configuration
+│   └── prometheus.yml
+├── model_and_data/
+│   ├── ADM_Files(test_4_addlat.py)/
+│   └── Dashboard(demo_launcher)/
 └── docs/
-    ├── setup_guide.md           # Full installation and setup guide
-    ├── troubleshooting.md       # Common issues and fixes
-    └── images/                  # Screenshots
+    ├── setup_guide.md
+    ├── troubleshooting.md
+    └── images/
 ```
 
 ---
@@ -79,6 +82,8 @@ zenith-5g/
 | Python | 3.10+ |
 
 ---
+
+> For the full installation, environment setup, and troubleshooting details, see [docs/setup_guide.md](docs/setup_guide.md).
 
 ## Quick Start
 
