@@ -197,4 +197,4 @@ This testbed was developed as part of a research project at IIITB on Zero-Touch 
 
 ## Team
 
-- IIITB 5G/O-RAN Research Lab
+- IIITB 5G/Network & Communication Research Lab
